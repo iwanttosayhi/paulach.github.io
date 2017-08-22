@@ -1,0 +1,122 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+
+.box1 {
+    background-color: darkmagenta;
+    width: cover;
+    height: 700px;
+    font-family: 'Josefin Sans', sans-serif;
+    margin-top: 0;
+    position: relative;
+}
+
+@keyframes anim {
+    0% {
+        color: firebrick;
+    }
+    25% {
+        color: sandybrown;
+    }
+    50% {
+        color: burlywood;
+    }
+    
+    75% {
+        color: coral;
+    }
+    100% {
+        color: firebrick;
+    }
+}
+
+h1 {
+    position: absolute;
+    text-align: center;
+    font-size: 100px;
+    margin-left: 40%;
+    margin-top: 20%;
+    animation: anim 5s linear infinite;
+    display: inline-block;
+    
+    
+  
+}
+
+.foto img {
+    height: 40%;
+    border-radius: 150px;
+    float: right;
+    position: absolute;
+    display: inline-block;
+    margin-left: 10%;
+    margin-top: 10%;
+    
+    
+    
+}
+
+
+
+@keyframes anim2 {
+    0% {
+        color: darkgray;
+    }
+    50% {
+        color: aqua;
+    }
+    100% {
+        color: white;
+    }
+}
+
+h2 {
+    animation: anim2 3s linear infinite;
+}
+
+.box2 {
+    position: relative;
+    color: gainsboro;
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    margin: 20px;
+}
+
+.box2 > p {
+    margin: 10%;
+}
+
+
+.box2 > a > img {
+    width: 100px;
+    
+    
+}
+
+.box2 {
+background-color: darkslategrey;
+    margin-bottom: cover;
+    padding-bottom: cover;
+}
+
+
+a {
+    color: darkorchid;
+}
+
+span {
+    color: darkorchid;
+}
+
+.last {
+
+    margin: 0;
+    text-align: center;
+    font-size: 24px;
+    background-color: white;
+    color: darkmagenta;
+    
+}
